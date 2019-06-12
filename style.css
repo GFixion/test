@@ -1,0 +1,45 @@
+#header{
+    background-color: black;
+    color:white;
+}
+
+h1{
+    padding:1px 5px 1px 5px;
+    margin:2px;
+}
+
+#header>ul{
+    margin-top:0;
+    padding:3px; 
+    list-style: none;
+    display: flex;
+    justify-content:space-around;   
+}
+#content ul{
+    list-style: none;
+    padding: 10px;
+}
+#content li>div:first-child{
+    color:beige;
+}
+#content li>div:first-child::before{
+    content: "⁑"
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#header>ul>li:first-letter{
+    color: red;
+    font-size: 25;
+}
+
+#header>ul>li{
+    text-decoration: underline;
+}
+
+#content{
+    border-top-style: dotted
+}
